@@ -1,0 +1,17 @@
+{
+    "files": [
+        "platforms/android/assets/www/js/**/*.js",
+        "platforms/ios/www/js/**/*.js"
+    ],
+    
+    "replacements": {
+        
+        "/*SERVER_URL*/": {
+            "live":  "/github",
+            "dev": "https://gist.github.com/",
+            "prod": "http://github.com/"
+        }
+        
+    }
+    
+}
